@@ -3,7 +3,7 @@
 <jsp:useBean id="gallery" scope="request" type="com.google.gdata.data.photos.UserFeed"/>
 
 <!DOCTYPE html>
-<html>
+<html manifest="/manifest.appcache">
 <head>
     <title>${gallery.nickname} Photography</title>
     <meta name="viewport" content="width=700, user-scalable=no">

@@ -4,7 +4,7 @@
 <jsp:useBean id="album" scope="request" type="com.google.gdata.data.photos.AlbumFeed"/>
 
 <!DOCTYPE html>
-<html>
+<html manifest="/manifest.appcache">
 <head>
     <title>${album.title.plainText} by ${album.nickname} - Photos</title>
     <meta name="viewport" content="width=650, user-scalable=no">

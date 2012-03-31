@@ -1,0 +1,10 @@
+CACHE MANIFEST
+# v1
+
+reset.css
+gallery.css
+gallery.js
+http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js
+
+NETWORK:
+*
