@@ -2,7 +2,7 @@
 <jsp:useBean id="picasa" scope="request" type="net.azib.photos.Picasa"/>
 
 <meta property="og:url" content="http://${host}${pageContext.request.servletPath}">
-<meta property="fb:admins" content="${picasa.user}"/>
+<!-- <meta property="fb:admins" content="${picasa.user}"/> -->
 
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
@@ -13,7 +13,6 @@
 
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="/gallery.js?v=10"></script>
-<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
 
 <script type="text/javascript">
   var _gaq = _gaq || [];

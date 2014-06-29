@@ -343,15 +343,15 @@ function PhotoViewer() {
         wrapper.find('.comment').fadeOut();
         wrapper.find('.comment.photo-' + photo.id).fadeIn();
 
-        exif.find('#time').text(photo.time);
-        if (photo.exif) {
-            exif.find('#aperture').toggle(!!photo.exif.aperture).text('f/' + photo.exif.aperture);
-            exif.find('#shutter').toggle(!!photo.exif.shutter).text(photo.exif.shutter < 1 ? ('1/' + Math.round(1/photo.exif.shutter)) : (photo.exif.shutter + '"'));
-            exif.find('#iso').toggle(!!photo.exif.iso).text('ISO' + photo.exif.iso);
-            exif.find('#focal').toggle(!!photo.exif.focal).text(photo.exif.focal + 'mm');
-        }
-        else
-            exif.find('td').empty();
+        // exif.find('#time').text(photo.time);
+        // if (photo.exif) {
+        //     exif.find('#aperture').toggle(!!photo.exif.aperture).text('f/' + photo.exif.aperture);
+        //     exif.find('#shutter').toggle(!!photo.exif.shutter).text(photo.exif.shutter < 1 ? ('1/' + Math.round(1/photo.exif.shutter)) : (photo.exif.shutter + '"'));
+        //     exif.find('#iso').toggle(!!photo.exif.iso).text('ISO' + photo.exif.iso);
+        //     exif.find('#focal').toggle(!!photo.exif.focal).text(photo.exif.focal + 'mm');
+        // }
+        // else
+        //     exif.find('td').empty();
 
         if (photo.pos) {
             if (!map) {

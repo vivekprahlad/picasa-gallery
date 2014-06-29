@@ -6,7 +6,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>${gallery.nickname} Photography</title>
+  <title>Oormila Creative Studio</title>
   <c:if test="${mobile}">
     <meta name="viewport" content="width=700, user-scalable=no">
   </c:if>
@@ -23,17 +23,14 @@
   </script>
 </head>
 
-<body style="background:black; color: gray">
+<body style="color: gray">
 
 <div id="header" class="header">
-  <a href="http://picasaweb.google.com/${gallery.username}" class="button" title="View the gallery in Picasaweb/Google+"><img src="/img/picasa-logo.png">Picasaweb</a>
-
   <form id="search"><input type="text" placeholder="Filter or Search" title="Type to filter albums or press enter to search for individual photos"></form>
-  <h1 id="title">${gallery.nickname} Photography</h1>
+  <h1 id="title">Oormila's paintings</h1>
 </div>
 
 <div id="content">
-  <div id="map"></div>
   <div class="albums">
     <c:forEach var="album" items="${gallery.albumEntries}">
       <c:if test="${album.photosUsed > 1}">
