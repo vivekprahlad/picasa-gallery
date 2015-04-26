@@ -26,7 +26,7 @@
 <body style="color: gray">
 
 <div id="header" class="header">
-  <form id="search"><input type="text" placeholder="Filter or Search" title="Type to filter albums or press enter to search for individual photos"></form>
+  <%--<form id="search"><input type="text" placeholder="Filter or Search" title="Type to filter albums or press enter to search for individual photos"></form>--%>
   <h1 id="title">Oormila's paintings</h1>
 </div>
 
