@@ -76,7 +76,7 @@
 <div id="header" class="header">
   <a href="/${picasa.urlSuffix}" class="button fade">Gallery</a>
 
-  <form id="search"><input></form>
+  <%--<form id="search"><input></form>--%>
   <h1 id="title">${album.title.plainText}
     <small>by ${album.nickname}</small>
   </h1>
@@ -86,11 +86,6 @@
   <h1>${album.title.plainText}</h1>
 
   <h2>${album.description.plainText}</h2>
-  <c:if test="${album.access != 'private'}">
-    <iframe class="facebook-button" scrolling="no" frameborder="0" allowtransparency="true"
-            src="http://www.facebook.com/plugins/like.php?layout=button_count&action=like&width=90&height=20&colorscheme=dark&href=http://<%=request.getHeader("host")%>/${album.name}${picasa.urlSuffix}">
-    </iframe>
-  </c:if>
   <br>
 
   <div class="thumbs clear">
