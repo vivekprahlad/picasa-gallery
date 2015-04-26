@@ -50,8 +50,6 @@
   <div id="footer">
     Photos by <a id="m" href="${picasa.user}">${gallery.nickname}</a>. All rights reserved. <a href="?random${fn:replace(picasa.urlSuffix, '?', '&')}">Random photo</a>.
     <br>
-    Rendered by <a href="http://github.com/angryziber/picasa-gallery">Picasa Gallery</a>.
-    View your <a href="javascript:changeUsername('${picasa.user}')">own gallery</a>.
   </div>
 </div>
 
