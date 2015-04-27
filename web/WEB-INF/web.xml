@@ -10,7 +10,8 @@
 
     <filter-mapping>
         <filter-name>router</filter-name>
-        <url-pattern>/*</url-pattern>
+        <url-pattern>/</url-pattern>
+        <url-pattern>/gallery/*</url-pattern>
     </filter-mapping>
 
     <servlet>
@@ -24,6 +25,16 @@
         <url-pattern>/sitemap.xml</url-pattern>
     </servlet-mapping>
 
+
+    <servlet>
+        <servlet-name>about</servlet-name>
+        <servlet-class>net.azib.photos.AboutServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>about</servlet-name>
+        <url-pattern>/about</url-pattern>
+    </servlet-mapping>
     <mime-mapping>
         <extension>css</extension>
         <mime-type>text/css</mime-type>

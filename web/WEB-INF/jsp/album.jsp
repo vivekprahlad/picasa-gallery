@@ -71,7 +71,7 @@
   </script>
 </head>
 
-<body style="background:black; color: gray">
+<body>
 
 <div id="header" class="header">
   <a href="/${picasa.urlSuffix}" class="button fade">Home</a>
@@ -83,9 +83,9 @@
 </div>
 
 <div id="content">
-  <h1>${album.title.plainText}</h1>
+  <%--<h1>${album.title.plainText}</h1>--%>
 
-  <h2>${album.description.plainText}</h2>
+  <%--<h2>${album.description.plainText}</h2>--%>
   <br>
 
   <div class="thumbs clear">

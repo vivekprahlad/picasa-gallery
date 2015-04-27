@@ -62,17 +62,17 @@ public class RequestRouter implements Filter {
         AlbumFeed album;
         List<CommentEntry> comments = emptyList();
         try {
-          album = picasa.getAlbum(parts[1]);
-          comments = picasa.getAlbumComments(parts[1]);
+          album = picasa.getAlbum(parts[2]);
+          comments = picasa.getAlbumComments(parts[2]);
         }
         catch (ResourceNotFoundException e) {
-          album = picasa.search(parts[1]);
-          album.setTitle(new PlainTextConstruct("Photos matching '" + parts[1] + "'"));
+          album = picasa.search(parts[2]);
+          album.setTitle(new PlainTextConstruct("Photos matching '" + parts[2] + "'"));
         }
 
-        if (parts.length > 2) {
+        if (parts.length > 3) {
           for (GphotoEntry photo : album.getPhotoEntries()) {
-            if (photo.getGphotoId().equals(parts[2])) {
+            if (photo.getGphotoId().equals(parts[3])) {
               request.setAttribute("photo", photo);
               break;
             }

@@ -17,10 +17,6 @@
   <meta property="og:image" content="${gallery.albumEntries[0].mediaThumbnails[0].url}">
   <meta property="og:site_name" content="${gallery.nickname} Photography">
   <%@include file="head.jsp" %>
-  <script type="text/javascript">
-    $(initMap);
-    $(initAlbumFilter);
-  </script>
 </head>
 
 <body style="color: gray">
@@ -31,28 +27,18 @@
 </div>
 
 <div id="content">
-  <div class="albums">
-    <c:forEach var="album" items="${gallery.albumEntries}">
-      <c:if test="${album.photosUsed > 1}">
-        <a id="${album.gphotoId}" class="fade" href="gallery/${album.name}${picasa.urlSuffix}" <c:if test="${album.geoLocation != null}">data-coords="${album.geoLocation.latitude}:${album.geoLocation.longitude}"</c:if>>
-          <img src="${album.mediaThumbnails[0].url}" alt="${album.title.plainText} photos, pictures">
-
-          <div class="title">
-            <span class="info">${album.photosUsed}</span>
-            <span class="text">${album.title.plainText}</span>
-            <span class="description hidden">${album.description.plainText}</span>
-          </div>
-        </a>
-      </c:if>
-    </c:forEach>
-  </div>
-
+  <p>Oormila has been painting for over 20 years. She trained under two prominent artists, during her childhood in Kuwait.
+     She published three anthologies of poetry before the age of 18.
+     She has a Masters degree in English from Delhi University and has worked in both media and education.
+    An expressionist who works with acrylics, she turned full time painter in 2011.</p>
+  <br/>
+  <p>Oormila was a war refugee in Iraq and Jordan during Operation Desert Storm.</p>
+  <br/>
+  <p>Oormila believes in the DIY lifestyle and swears by her two hands - she sews her own clothes, bakes and sculpts theme cakes and loves to play the piano.</p>
   <div id="footer">
     Photos by <a id="m" href="${picasa.user}">${gallery.nickname}</a>. All rights reserved. <a href="?random${fn:replace(picasa.urlSuffix, '?', '&')}">Random photo</a>.
     <br>
   </div>
 </div>
-
-<h2 class="hidden">${gallery.nickname} <b>photos</b> and pictures</h2>
 </body>
 </html>
