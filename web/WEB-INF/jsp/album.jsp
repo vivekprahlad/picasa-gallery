@@ -74,12 +74,10 @@
 <body>
 
 <div id="header" class="header">
-  <a href="/${picasa.urlSuffix}" class="button fade">Home</a>
-
-  <%--<form id="search"><input></form>--%>
-  <h1 id="title">${album.title.plainText}
-    <small>by ${album.nickname}</small>
-  </h1>
+  <ul>
+    <li><a href="/">Gallery</a></li>
+    <li><a href="/about">About</a></li>
+  </ul>
 </div>
 
 <div id="content">

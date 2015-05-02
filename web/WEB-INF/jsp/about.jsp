@@ -22,11 +22,16 @@
 <body style="color: gray">
 
 <div id="header" class="header">
-  <%--<form id="search"><input type="text" placeholder="Filter or Search" title="Type to filter albums or press enter to search for individual photos"></form>--%>
-  <h1 id="title">Oormila's paintings</h1>
+  <ul>
+    <li><a href="/">Gallery</a></li>
+    <li><a href="/about">About</a></li>
+  </ul>
 </div>
 
 <div id="content">
+  <img src="/img/oormila.jpg" style="margin-left: auto;margin-right: auto;display: block">
+  <br/>
+  <br/>
   <p>Oormila has been painting for over 20 years. She trained under two prominent artists, during her childhood in Kuwait.
      She published three anthologies of poetry before the age of 18.
      She has a Masters degree in English from Delhi University and has worked in both media and education.

@@ -62,7 +62,11 @@
 
   <target name="update" depends="datanucleusenhance"
       description="Uploads the application to App Engine.">
-    <appcfg action="update" war="war" />
+      <appcfg action="update" war="war">
+        <options>
+          <arg value="--oauth2"/>
+        </options>
+      </appcfg>
   </target>
 
   <target name="update_indexes" depends="datanucleusenhance"
