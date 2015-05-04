@@ -35,7 +35,7 @@
   <p>Oormila has been painting for over 20 years. She trained under two prominent artists, during her childhood in Kuwait.
      She published three anthologies of poetry before the age of 18.
      She has a Masters degree in English from Delhi University and has worked in both media and education.
-    An expressionist who works with acrylics, she turned full time painter in 2011.</p>
+    Oormila is an expressionist who works with acrylics. </p>
   <br/>
   <p>Oormila was a war refugee in Iraq and Jordan during Operation Desert Storm.</p>
   <br/>
