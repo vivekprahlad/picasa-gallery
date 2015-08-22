@@ -51,7 +51,7 @@
   </div>
 
   <div id="footer">
-    Photos by <a id="m" href="${picasa.user}">${gallery.nickname}</a>. All rights reserved. <a href="?random${fn:replace(picasa.urlSuffix, '?', '&')}">Random photo</a>.
+    Paintings by <a id="m" href="${picasa.user}">${gallery.nickname}</a>. All rights reserved. Please contact me at prahlad.oormila@gmail.com. <br/><br/><a href="?random${fn:replace(picasa.urlSuffix, '?', '&')}">Please click for a random painting from my portfolio</a>.
     <br>
   </div>
 </div>
