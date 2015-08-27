@@ -40,13 +40,15 @@
   <br/>
   <br/>
   <p>Solo exhibitions:</p>
-  <p>2002, Painted Platters, CMH Road, Bangalore</p>
+  <p>August 2002, Painted Platters, CMH Road, Bangalore</p>
   <br/>
   <p>Group exhibitions:</p>
   <br/>
-  <p>2005, Gallery G, Bangalore</p>
-  <p>Jan 2014, The Substation, Aremian Street, Singapore.</p>
-  <p>Feb 2014 -Two Dots Arts Fest- Artistry, Singapore.</p>
+  <p>August 2005, Gallery G, Bangalore</p>
+  <p>January 2014, The Substation, Aremian Street, Singapore.</p>
+  <p>February 2014, Two Dots Arts Fest- Artistry, Singapore.</p>
+  <p>February 2015, The Mill, Singapore.</p>
+  <p>August 2015, Lindfield Public School, Syndey.</p>
   </ul>
   <div id="footer">
     Photos by <a id="m" href="${picasa.user}">${gallery.nickname}</a>. All rights reserved. <a href="?random${fn:replace(picasa.urlSuffix, '?', '&')}">Random photo</a>.
