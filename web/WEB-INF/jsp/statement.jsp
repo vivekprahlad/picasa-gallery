@@ -30,26 +30,11 @@
 </div>
 
 <div id="content">
-  <img src="/img/oormila.jpg" style="margin-left: auto;margin-right: auto;display: block">
+  <p>For me, painting is about placing a beautiful filter on everything I view; seeing even the mundane through rose tinted glasses. I paint everyday, common things, but try to represent them in scintillating light, through the use of vibrant hues and multi directional strokes.</p>
   <br/>
+  <p>I am particularly drawn to painting nature, especially trees and water. There is something magical about the phenomena of the physical world, a complexity that often transcends understanding. I find being in nature, soothing and therapeutic. When I paint en plain air, I try to capture the essence of these pleasant experiences on canvas.</p>
   <br/>
-  <p>Oormila is an expressionist, who has been painting in Acrylics for over 20 years. She finds inspiration in her surroundings and many of her paintings are inspired by the places in which she has lived. She likes to paint with energetic strokes and bright, bold color, celebrating beauty in her art. </p>
-  <br/>
-  <p>Oormila was a war refugee in Iraq and Jordan during Operation Desert Storm.She has a Masters degree in English from Delhi University and has worked in both media and education.</p>
-  <br/>
-  <p>Oormila believes in the DIY lifestyle - she sews her own clothes, bakes and sculpts theme cakes and loves to play the piano.</p>
-  <br/>
-  <br/>
-  <p>Solo exhibitions:</p>
-  <p>August 2002, Painted Platters, CMH Road, Bangalore</p>
-  <br/>
-  <p>Group exhibitions:</p>
-  <br/>
-  <p>August 2005, Gallery G, Bangalore</p>
-  <p>January 2014, The Substation, Aremian Street, Singapore.</p>
-  <p>February 2014, Two Dots Arts Fest- Artistry, Singapore.</p>
-  <p>February 2015, The Mill, Singapore.</p>
-  <p>August 2015, Lindfield Public School, Syndey.</p>
+  <p>I am currently working towards an exhibition and am putting together a body of work inspired by the scenes of Sydney, both natural and urban. </p>
   <div id="footer">
     Photos by <a id="m" href="${picasa.user}">${gallery.nickname}</a>. All rights reserved. <a href="?random${fn:replace(picasa.urlSuffix, '?', '&')}">Random photo</a>.
     <br>

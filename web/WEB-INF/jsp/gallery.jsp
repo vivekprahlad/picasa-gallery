@@ -29,6 +29,7 @@
   <%--<form id="search"><input type="text" placeholder="Filter or Search" title="Type to filter albums or press enter to search for individual photos"></form>--%>
   <ul id="nav">
     <li><a href="/">Gallery</a></li>
+    <li><a href="/statement">Artist Statement</a></li>
     <li><a href="/about">About</a></li>
   </ul>
 </div>

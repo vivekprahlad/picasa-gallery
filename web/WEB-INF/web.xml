@@ -30,10 +30,18 @@
         <servlet-name>about</servlet-name>
         <servlet-class>net.azib.photos.AboutServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>statement</servlet-name>
+        <servlet-class>net.azib.photos.StatementServlet</servlet-class>
+    </servlet>
 
     <servlet-mapping>
         <servlet-name>about</servlet-name>
         <url-pattern>/about</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>statement</servlet-name>
+        <url-pattern>/statement</url-pattern>
     </servlet-mapping>
     <mime-mapping>
         <extension>css</extension>
