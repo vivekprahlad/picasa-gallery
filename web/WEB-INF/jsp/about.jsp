@@ -32,14 +32,22 @@
   <img src="/img/oormila.jpg" style="margin-left: auto;margin-right: auto;display: block">
   <br/>
   <br/>
-  <p>Oormila has been painting for over 20 years. She trained under two prominent artists, during her childhood in Kuwait.
-     She published three anthologies of poetry before the age of 18.
-     She has a Masters degree in English from Delhi University and has worked in both media and education.
-    Oormila is an expressionist who works with acrylics. </p>
+  <p>Oormila is an expressionist, who has been painting in Acrylics for over 20 years. She finds inspiration in her surroundings and many of her paintings are inspired by the places in which she has lived. She likes to paint with energetic strokes and bright, bold color, celebrating beauty in her art. </p>
   <br/>
-  <p>Oormila was a war refugee in Iraq and Jordan during Operation Desert Storm.</p>
+  <p>Oormila was a war refugee in Iraq and Jordan during Operation Desert Storm.She has a Masters degree in English from Delhi University and has worked in both media and education.</p>
   <br/>
-  <p>Oormila believes in the DIY lifestyle and swears by her two hands - she sews her own clothes, bakes and sculpts theme cakes and loves to play the piano.</p>
+  <p>Oormila believes in the DIY lifestyle - she sews her own clothes, bakes and sculpts theme cakes and loves to play the piano.</p>
+  <br/>
+  <br/>
+  <p>Solo exhibitions:</p>
+  <p>2002, Painted Platters, CMH Road, Bangalore</p>
+  <br/>
+  <p>Group exhibitions:</p>
+  <br/>
+  <p>2005, Gallery G, Bangalore</p>
+  <p>Jan 2014, The Substation, Aremian Street, Singapore.</p>
+  <p>Feb 2014 -Two Dots Arts Fest- Artistry, Singapore.</p>
+  </ul>
   <div id="footer">
     Photos by <a id="m" href="${picasa.user}">${gallery.nickname}</a>. All rights reserved. <a href="?random${fn:replace(picasa.urlSuffix, '?', '&')}">Random photo</a>.
     <br>
