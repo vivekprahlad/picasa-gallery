@@ -49,7 +49,10 @@
   <p>January 2014, The Substation, Aremian Street, Singapore.</p>
   <p>February 2014, Two Dots Arts Fest- Artistry, Singapore.</p>
   <p>February 2015, The Mill, Singapore.</p>
-  <p>August 2015, Lindfield Public School, Syndey.</p>
+  <p>August 2015, North Sydney Community Center, Syndey.</p>
+  <p>March 2016, Masonic Hall, Turramurra</p>
+  <p>March 2017, Epping Arts Fair, Edmund Barton Center</p>
+  <p>March 2018, Epping Arts Fair, Edmund Barton Center</p>
   <div id="footer">
     Photos by <a id="m" href="${picasa.user}">${gallery.nickname}</a>. All rights reserved. <a href="?random${fn:replace(picasa.urlSuffix, '?', '&')}">Random photo</a>.
     <br>
